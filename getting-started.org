@@ -1,3 +1,13 @@
 #+TITLE: getting started
 #+AUTHOR: Sorger lab and LSP memebers
 #+LANGUAGE: en
+
+*** create a local repository
+
+    1. create a new directory and move into it
+    2. turn directory into a git repository
+    3. create a new empty file
+    4. tell git to begin tracking the new file
+    5. commit the new file
+    6. view contents of the objects database
+    7. push current state to remote
