@@ -97,7 +97,16 @@
        e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 blob
        #+END_SRC sh
 
-    7. push current state to remote
+    7. configure remote name
+
+       #+BEGIN_SRC sh
+       % git remote add origin git@github.com:sorgerlabnoob/tiny-repo.git
+       % git remote -v
+       origin	git@github.com:sorgerlabnoob/tiny-repo.git (fetch)
+       origin	git@github.com:sorgerlabnoob/tiny-repo.git (push)
+       #+END_SRC sh
+
+    8. push current state to remote
 
        #+BEGIN_SRC sh
        % git push git@github.com:sorgerlabnoob/tiny-repo.git master
